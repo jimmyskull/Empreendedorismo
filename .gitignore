@@ -30,3 +30,9 @@
 *.vrb
 *.xdy
 *.tdo
+plano/abntex/*
+*~
+plano/abnt-num.bst
+plano/abnt-alf.bst
+plano/abnt-options.bib
+

@@ -48,7 +48,7 @@ LATEX_DEBUG=pdflatex\ -file-line-error\ -interaction=nonstopmode\ -shell-escape
 # Programa para gerar bibliografia
 BIBTEX=bibtex
 # Diretórios de busca
-export TEXINPUTS=$(shell kpsepath tex):$(shell pwd)/
+export TEXINPUTS=$(shell kpsepath tex):$(shell pwd)/:$(shell pwd)/abntex/
 # Arquivo temporário para armazenar o progresso atual
 PROGRESS=$(MAIN).mpgs
 # Arquivo temporário com os temos de execução
